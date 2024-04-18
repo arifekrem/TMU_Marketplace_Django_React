@@ -67,7 +67,6 @@ After completing the migrations, you can start the server.
    ```bash
    python manage.py runserver
    ```
-
 ### Starting the Application
 
 After the server is running, you can start the front-end part of the application.
@@ -76,6 +75,7 @@ After the server is running, you can start the front-end part of the application
    ```bash
    cd client
    ```
+   
 2. **Install npm Dependencies**
    ```bash
    npm install
