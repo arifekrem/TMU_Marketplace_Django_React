@@ -70,3 +70,5 @@ After completing the migrations, you can start the server.
 
 This command starts a development server on your local machine. By default, the server runs at http://127.0.0.1:8000/.
 
+You can check an example of this marketplace working at http://143.198.38.214/.
+
