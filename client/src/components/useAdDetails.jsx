@@ -13,7 +13,7 @@ function useAdDetails(){
     
     useEffect(() => {
       // Fetches the ad details from the API.
-      const fetchCategories = async () => {
+      const fetchAdDetails = async () => {
         try {
             const response = await axios.get(`/api/ads/${adId}/`);
             setAd(response.data);
