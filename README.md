@@ -71,7 +71,7 @@ After completing the migrations, you can start the server.
 
 After the server is running, you can start the front-end part of the application.
 
-1. **Navigate to the client Directory**
+1. **Navigate to the client Directory
    ```bash
    cd client
    ```
