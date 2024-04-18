@@ -1,0 +1,6 @@
+Django==4.2.9
+djangorestframework==3.14.0
+django-cors-headers
+channels==3.0.4
+python-socketio
+Pillow

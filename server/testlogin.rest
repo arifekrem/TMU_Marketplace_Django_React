@@ -1,0 +1,23 @@
+POST http://127.0.0.1:8000/api/users/signup
+Content-Type: application/json
+
+{ "username": "Elena", "password": "Pass123!", "email": "elena@email.com" }
+
+###
+
+POST http://127.0.0.1:8000/api/users/login 
+Content-Type: application/json
+ 
+{ "username": "Elena", "password": "Pass123!"}
+ 
+###
+
+GET http://127.0.0.1:8000/api/users/test_token 
+Content-Type: application/json 
+Authorization: Token 47bf836f222b8f6647fdb02914768844c62771ea
+
+###
+
+POST http://127.0.0.1:8000/api/users/logout
+Content-Type: application/json 
+Authorization: Token 2c7054feafc246e637268348cc7ad6f7a7ad71d0

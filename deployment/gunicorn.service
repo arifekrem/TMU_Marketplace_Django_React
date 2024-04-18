@@ -1,0 +1,18 @@
+[Unit]
+Description=gunicorn daemon for Django Project
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/root/TMU-Marketplace/server
+ExecStart=/root/TMU-Marketplace/server/.venv/bin/gunicorn \
+          --access-logfile - \
+          -k uvicorn.workers.UvicornWorker \
+          --workers 3 \
+          --bind unix:/run/gunicorn.sock \
+          core.asgi:application
+
+[Install]
+WantedBy=multi-user.target
