@@ -88,4 +88,4 @@ After the server is running, you can start the front-end part of the application
 
 This command starts a development server on your local machine. By default, the server runs at http://localhost:3000/.
 
-You can see a live example of this marketplace in action by visiting [TMU Marketplace Example] (http://143.198.38.214/), which demonstrates how the application should look and function when fully set up.
+You can see a live example of this marketplace in action by visiting [TMU Marketplace Example](http://143.198.38.214/), which demonstrates how the application should look and function when fully set up.
