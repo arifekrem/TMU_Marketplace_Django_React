@@ -64,6 +64,7 @@ Before running the server, you need to make sure the database schema is up to da
 After completing the migrations, you can start the server.
 
 1. **Start the Django Server**
+   
    ```bash
    python manage.py runserver
    ```
